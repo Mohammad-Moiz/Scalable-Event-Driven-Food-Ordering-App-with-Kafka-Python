@@ -8,3 +8,6 @@ The system should be highly scalable. Given the decoupled nature, you can scale 
 The system is also very extensible because of the nature of Apache Kafka. The messages for a given topic can be retained within Kafka. That means, if you were to build a new component, you could replay all the messages of a topic from the beginning and make the component process all messages from the beginning of the topic. 
 
 Similarly, given the persistence of Kafka, if there is an issue with any downstream or upstream system, you won't suffer from any data loss. 
+
+
+![Screenshot from 2024-06-20 01-57-35](https://github.com/Mohammad-Moiz/Scalable-Event-Driven-Food-Ordering-App-with-Kafka-Python/assets/127727314/694e07f1-356b-4ee9-a404-398a174755c5)
